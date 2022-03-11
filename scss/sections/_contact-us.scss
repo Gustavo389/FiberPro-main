@@ -1,0 +1,26 @@
+@use "../custom" as *;
+
+.bg-gray-contact{
+    background-color:$gray-800 ;
+    color: white;
+
+}
+.fill-green-svg{
+    fill: #43aa8b;
+    height: 5rem;
+    width: 5rem;
+}
+.bg-gray-contact h2{
+    font-size: 50px;
+    margin-bottom:3vh ;
+}
+
+.form-size-contact{
+    height: 5vh;
+}
+
+
+.form-textbox-height{
+    padding-bottom:20px;
+    line-height: 28px;
+}

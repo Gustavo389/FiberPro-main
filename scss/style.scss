@@ -1,0 +1,23 @@
+@use 'custom';
+
+//IMPORT COMPONENTS
+@use "components/animations";
+@use "components/buttons";
+@use "components/mixins";
+@use "components/typograph";
+//Import Sections
+@use "sections/navbar";
+@use "sections/intro-section";
+@use "sections/who-we-are";
+@use "sections/qualifications";
+@use "sections/services";
+
+@use "sections/contact-us";
+@use "sections/portfolio";
+@use "sections/footer";
+
+
+$primary:#a84e4e;
+.test-1{
+    color:$primary;
+}
