@@ -1,0 +1,26 @@
+@use "../custom" as *;
+
+#politics-privacy {
+  margin-top: 3rem;
+}
+#politics-h1 {
+  font-size: 35px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  color: rgb(94, 93, 93);
+}
+#fiberpro-h2 {
+  font-family: "Roboto", sans-serif;
+  font-size: 30px;
+  font-weight: 500;
+  color: rgb(94, 93, 93);
+}
+.box-lgpd {
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+.subtitle-lgpd {
+  font-size: 20px;
+  font-weight: 800;
+  color: rgb(94, 93, 93);
+}

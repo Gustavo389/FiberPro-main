@@ -10,7 +10,8 @@
   <link rel="stylesheet" href="assets/css/style.css">
   <link rel="stylesheet" href="assets/css/fontawesome.css">
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&family=Share+Tech&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@200&family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@200&family=Open+Sans:wght@300&display=swap"
+    rel="stylesheet">
 
 
 
@@ -18,31 +19,45 @@
 
 <body>
 
-<!--//////////////////////////////////////////////////////////////* START THE NAVBAR SECTION////////////////////////////////////////////// -->
+  <div class="fixed-bottom  cookie-window">
+    <div class="text-center" id="internal-window-cookie">
+      <div style="padding: 2rem 2rem 2rem 2rem">
+        <p style="font-family: 'Roboto', sans-serif;">Usamos cookies para personalizar sua experiência.
+          Para saber mais acesse nossa <a href="politics.html">política de privacidade</a>.<br></p>
+        <div class="btton-box">
+          <input type="button" value="Recusar Cookies" class="btn btn-cookie" id="refuse">
+          <input type="button" value="Aceitar Cookies" class="btn btn-cookie" id="accept" style="margin-right:1rem">
+        </div>
+      </div>
+    </div>
+  </div>
 
-    <nav class="navbar navbar-expand-lg navbar-dark font-roboto bg-primary menu">
+  
+  <!--//////////////////////////////////////////////////////////////* START THE NAVBAR SECTION////////////////////////////////////////////// -->
+  <nav class="navbar navbar-expand-lg navbar-light  bg-primary menu">
     <div class="container">
       <a class="navbar-brand" href="#">
-        <img src="images/arts/fiberpro_transparente.png"  style="width: 250px; height: 100%;" alt=""></a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarSupportedContent" aria-expanded="true" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span> 
-        </button>
+        <img src="images/arts/logo3.png" style="width: 250px; height: 100%;" alt=""></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarSupportedContent" aria-expanded="true" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
       <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-        <ul class="navbar-nav" >
-          <li class="nav-item">
-            <a class="nav-link" aria-current="page" href="#about-us">Sobre Nós</a>
+        <ul class="navbar-nav">
+          <li class="nav-item"> 
+            <a class="nav-link underline" aria-current="page" href="#about-us"> Sobre Nós</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#services">Serviços</a>
+            <a class="nav-link  underline " href="#services">Serviços</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#contact-us">Contate-nos</a>
+            <a class="nav-link  underline" href="#contact-us">Contate-nos</a>
           </li>
         </ul>
       </div>
     </div>
   </nav>
-     <!--//////////////////////////////////////////////*Carousel////////////////////////////////////////////////////////////////////////////// -->
+  <!--//////////////////////////////////////////////*Carousel////////////////////////////////////////////////////////////////////////////// -->
   <div class="container-fluid background-carousel-color">
     <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
       <div class="carousel-indicators">
@@ -53,7 +68,6 @@
         <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
           aria-label="Slide 3"></button>
       </div>
-        <!--////////////////////////////////////!Mudar as imagens para as oficiais///////////////////// -->
       <div class="carousel-inner">
         <div class="carousel-item  active">
           <div class="overlay-image  img-carousel" style="background-image:url(./images/services/fiber-resized.jpg);">
@@ -61,13 +75,15 @@
           </div>
         </div>
         <div class="carousel-item ">
-          <div class="overlay-image img-carousel " style="background-image:url(./images/arts/maquina_fusao_resized.jpg);">
-            
+          <div class="overlay-image img-carousel "
+            style="background-image:url(./images/arts/maquina_fusao_resized.jpg);">
+
           </div>
         </div>
         <div class="carousel-item">
-          <div class="overlay-image img-carousel" style="background-image:url(./images/services/circuitboard-1242419.jpg);">
-        </div>
+          <div class="overlay-image img-carousel"
+            style="background-image:url(./images/services/circuitboard-1242419.jpg);">
+          </div>
         </div>
       </div>
       <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-bs-slide="prev">
@@ -82,70 +98,87 @@
   </div>
   <!-- //////////////////////////////////////////////////////////////*Section About Us////////////////////////////////////////////////// -->
   <div class=" container bg-white" id="about-us">
-  <div class="container">
+    <div class="container">
 
-        <div class="row featurette">
-          <h2 class="featurette-heading text-center text-h2-who font-roboto" style="margin-top: 3rem;">Quem Somos</h2>
+      <div class="row featurette">
+        <h2 class="featurette-heading text-center text-h2-who font-roboto" style="margin-top: 3rem;">Quem Somos</h2>
 
-          <div class="col-md-7">
-            <p class="lead p-who  font-open-sans "> A FiberPro foi criada com o intuito de trazer soluções para empresas do ramo de fibra óptica, nosso maior foco é a manutenção de equipamentos de fibra como máquina de fusão, OTDR, medidor de potência e outros. Temos vasta experiência e conhecimento técnico na área de manutenção. Nossa maior missão é fazer um trabalho digno e um preço justo a sua empresa, seja ela grande ou pequena.</p>
-          </div>
-          <div class="col-md-5">
-            <img src="images/arts/contatos.png" alt="Your equipament will be safe with us" style="height:20rem; width:20rem; margin-top: 1rem;">
-          </div>
+        <div class="col-md-7">
+          <p class="lead p-who  font-open-sans "> A FiberPro foi criada com o intuito de trazer soluções para empresas
+            do ramo de fibra óptica, nosso maior foco é a manutenção de equipamentos de fibra como máquina de fusão,
+            OTDR, medidor de potência e outros. Temos vasta experiência e conhecimento técnico na área de manutenção.
+            Nossa maior missão é fazer um trabalho digno e um preço justo a sua empresa, seja ela grande ou pequena.</p>
         </div>
+        <div class="col-md-5">
+          <img src="images/arts/contatos.png" alt="Your equipament will be safe with us"
+            style="height:20rem; width:20rem; margin-top: 1rem;">
+        </div>
+      </div>
 
-      <hr class="featurette-divider mx-auto" style="margin-top: 10vh;margin-bottom: 3vh;"></hr>
+      <hr class="featurette-divider mx-auto" style="margin-top: 10vh;margin-bottom: 3vh;">
+      </hr>
       <!--//////////////////////////////////////*Section Enterprise Quality///////////////////////////// -->
-      <h2  class="text-center featurette-heading text-h2-who font-roboto">Qualidades</h2>
+      <h2 class="text-center featurette-heading text-h2-who font-roboto">Qualidades</h2>
       <div class="row font-roboto font-open-sans">
         <div class="col-lg-4 ">
-          <img class="align-image-center" src="images/arts/lista-de-controle.png" alt="Generic placeholder image" width="140" height="140">
+          <img class="align-image-center" src="images/arts/lista-de-controle.png" alt="Generic placeholder image"
+            width="140" height="140">
           <h3 class="text-center">Orçamento gratuito</h3>
           <p class="text-center fs-4 fw-normal">Orçamento sem compromisso e sem custo.</p>
         </div>
-        
+
         <div class="col-lg-4 ">
-          <img class="align-image-center" src="images/qualities/contabilidade.png" alt="Generic placeholder image" width="140" height="140">
+          <img class="align-image-center" src="images/qualities/contabilidade.png" alt="Generic placeholder image"
+            width="140" height="140">
           <h3 class="text-center">Preço Justo</h3>
           <p class="text-center  fs-4 fw-normal">Melhores preços do mercado</p>
 
         </div>
 
-          <div class="col-lg-4 ">
-          <img class="align-image-center" src="images/qualities/chave-inglesa.png" alt="Generic placeholder image" width="140" height="140">
+        <div class="col-lg-4 ">
+          <img class="align-image-center" src="images/qualities/chave-inglesa.png" alt="Generic placeholder image"
+            width="140" height="140">
           <h3 class="text-center">Manutenção com garantia</h3>
-          <p class="text-center  fs-4 fw-normal">Experiência com diversos modelos e marcas, consertos com prazo curto e com qualidade garantida.</p>
+          <p class="text-center  fs-4 fw-normal">Experiência com diversos modelos e marcas, consertos com prazo curto e
+            com qualidade garantida.</p>
         </div>
-        
+
       </div>
     </div>
-    <hr class="featurette-divider mx-auto" style="margin-top: 10vh;margin-bottom: 3vh;"></hr>
+    <hr class="featurette-divider mx-auto" style="margin-top: 10vh;margin-bottom: 3vh;">
+    </hr>
 
     <!-- ////////////////////////////////////*Section Services///////////////////////////////// -->
     <h2 class="text-center font-roboto text-h2-who" id="services">Serviços</h2>
     <div class="row">
-    <div class="col-md-5">
-    <img src="images/arts/WhatsApp Image 2022-02-23 at 13.29.17.jpeg" alt="" style="margin-top: 5rem;height: 70%; width: 100%;" >
+      <div class="col-md-5">
+        <img src="images/arts/WhatsApp Image 2022-02-23 at 13.29.17.jpeg" alt=""
+          style="margin-top: 5rem;height: 70%; width: 100%;">
+      </div>
+      <div class="col-md-7">
+        <h3 class="font-roboto" style="margin-top: 5rem;font-size:50px;color:rgb(126, 125, 125);font-weight: 400;">
+          Manutenção em máquinas de fusão de fibra</h3>
+        <p class="p-who lead font-open-sans" style="">Temos experiência com os principais modelos e
+          fabricantes:<br>-Sumitomo;<br>-Fitel;<br>-Jilong;<br>-Fujikura;<br>-Etc.</p>
+      </div>
     </div>
-    <div class="col-md-7">
-    <h3 class="font-roboto" style="margin-top: 5rem;font-size:50px;color:rgb(126, 125, 125);font-weight: 400;">Manutenção em máquinas de fusão de fibra</h3>
-    <p class="p-who lead font-open-sans"style="">Temos experiência com os principais modelos e fabricantes:<br>-Sumitomo;<br>-Fitel;<br>-Jilong;<br>-Fujikura;<br>-Etc.</p>
-    </div>
-</div>
-    <hr class="featurette-divider mx-auto" ></hr>
+    <hr class="featurette-divider mx-auto">
+    </hr>
 
     <div class="row">
       <div class="col-md-7">
-      <h3 class="font-roboto" style="margin-top: 5rem;font-size:50px;color:rgb(126, 125, 125);font-weight: 400;">Manutenção em equipamentos para fibra:</h3>
-      <p class="p-who lead font-open-sans"style="">-Medidor de Potência; <br>-Identificador de falhas;<br>-Clivadores;<br>-Identificador de Fibra Ativa.</p>
+        <h3 class="font-roboto" style="margin-top: 5rem;font-size:50px;color:rgb(126, 125, 125);font-weight: 400;">
+          Manutenção em equipamentos para fibra:</h3>
+        <p class="p-who lead font-open-sans" style="">-Medidor de Potência; <br>-Identificador de
+          falhas;<br>-Clivadores;<br>-Identificador de Fibra Ativa.</p>
       </div>
-       <div class="col-md-5">
-        <img src="images/arts/WhatsApp Image 2022-02-23 at 13.29.17 (1).jpeg" alt="" style="margin-top: 5rem; height: 70%; width: 100%;" >
-        </div>
+      <div class="col-md-5">
+        <img src="images/arts/WhatsApp Image 2022-02-23 at 13.29.17 (1).jpeg" alt=""
+          style="margin-top: 5rem; height: 70%; width: 100%;">
+      </div>
     </div>
   </div>
-</div>
+  </div>
 
 
 
@@ -153,85 +186,89 @@
 
 
 
-<!--//////////////////////////////////////////////////////////////*Section Contact-us///////////////////////////////////////////////////////////-->
+  <!--//////////////////////////////////////////////////////////////*Section Contact-us///////////////////////////////////////////////////////////-->
   <div class="container-fluid bg-gray-contact" id="contact-us">
-        <h2 class="text-center" style="padding-top: 2rem;">
-          Contate-nos
-        </h2>
-        <p class="text-center fs-3 font-open-sans" >A FiberPro é profissional no ramo de manutenção, gostaria de fazer um orçamento conosco?
-           Basta entrar em contato atráves do site, coloque seu email ou use o nosso serviço de atendimento pelo whatsapp.</p>
-        
-            <!-- *Form for sending email to enterprise with message -->
-      <div class="container">
+    <h2 class="text-center" style="padding-top: 2rem;">
+      Contate-nos
+    </h2>
+    <p class="text-center fs-3 font-open-sans">A FiberPro é profissional no ramo de manutenção, gostaria de fazer um
+      orçamento conosco?
+      Basta entrar em contato atráves do site, coloque seu email ou use o nosso serviço de atendimento pelo whatsapp.
+    </p>
+
+    <!-- *Form for sending email to enterprise with message -->
+    <div class="container">
       <div class="row justify-content-around" style="padding-bottom: 5rem;">
 
         <div class="col text-center" style="margin-top: 2rem; margin-bottom: 3rem;">
-            <a href="https://api.whatsapp.com/message/MBFY3KPYD56AK1?autoload=1&app_absent=0"><img src="images/arts/whatsapp_clique_contato.png"  style="height: 130px; width: 370px;" alt=""></a>
-        </h4>
-        </div>  
+          <a href="https://api.whatsapp.com/message/MBFY3KPYD56AK1?autoload=1&app_absent=0"><img
+              src="images/arts/whatsapp_clique_contato.png" style="height: 130px; width: 370px;" alt=""></a>
+          </h4>
+        </div>
 
         <div class="col-sm-5 text-center">
           <h4>Entrar em contato por email:</h4>
           <form target="_blank" action="https://formsubmit.co/laboratoriofiberpro@gmail.com" method="POST">
             <div class="input-group mb-3">
-              <input type="text" name="name" class="form-control form-size-contact" placeholder="Seu nome completo" required>
+              <input type="text" name="name" class="form-control form-size-contact" placeholder="Seu nome completo"
+                required>
             </div>
-          <div class="input-group mb-3">
-            <input type="email" name="email" class="form-control form-size-contact" placeholder="Seu Email" aria-label="Email" aria-describedby="basic-addon2" required>
-          </div>
-          <div class="input-group mb-3">
-            <textarea class="form-control" name="message" placeholder="Sua Mensagem" rows="3" required></textarea>
-          </div>
-          <button type="submit" class="btn btn-secondary"> Enviar Email</button>
+            <div class="input-group mb-3">
+              <input type="email" name="email" class="form-control form-size-contact" placeholder="Seu Email"
+                aria-label="Email" aria-describedby="basic-addon2" required>
+            </div>
+            <div class="input-group mb-3">
+              <textarea class="form-control" name="message" placeholder="Sua Mensagem" rows="3" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-cookie"> Enviar Email</button>
         </div>
-      </form>
+        </form>
       </div>
     </div>
-    </div>
+  </div>
 
 
 
 
-<!-- ////////////////////////////////////////////////////////////////* Footer ///////////////////////////////////////////////////////////// -->
-<div class="container-fluid" id="footer-bg-dark">  
-<div class="container">
-        <footer class="row row-cols-5 justify-content-between py-5">   
-          <div class="col">
-            <p>Atribuições</p>
-            <ul class="nav flex-column">
-              <li class="nav-item mb-2"><a class="nav-link p-0 text-muted atribuition" href="https://pt.vecteezy.com/vetor-gratis/projeto">Projeto Vetores por Vecteezy</a></li>
-              <li class="nav-item mb-2"><a href="https://www.flaticon.com/br/icones-gratis/equipe" title="equipe ícones" class="nav-link p-0 text-muted atribuition">Equipe ícones criados por Eucalyp - Flaticon</a></li>
-              <li class="nav-item mb-2"><a href="https://www.flaticon.com/br/icones-gratis/manutencao"  title="manutenção ícones" class="nav-link p-0 text-muted atribuition">Manutenção ícones criados por srip</a></li>
-              <li class="nav-item mb-2"><a href="https://www.freeimages.com/pt/photographer/fcunh4-82911" title="imagem fibra" class="nav-link p-0 text-muted atribuition">fibra-Imagem de autoria de fcunh4</a></li>
-              <li class="nav-item mb-2"><a href="https://www.freeimages.com/pt/photographer/bodgie-57580" title="imagem circuito" class="nav-link p-0 text-muted atribuition">placa-Imagem de autoria de bodgie</a></li>
-            </ul>
-          </div>
-          <div class="col"></div>
+  <!-- ////////////////////////////////////////////////////////////////* Footer ///////////////////////////////////////////////////////////// -->
+  <div class="container-fluid" id="footer-bg-dark">
+    <div class="container">
+      <footer class="row row-cols-5 justify-content-between py-5">
+        <div class="col">
+          <p>Atribuições</p>
+          <ul class="nav flex-column">
+            <li class="nav-item mb-2"><a class="nav-link p-0 text-muted atribuition"
+                href="https://pt.vecteezy.com/vetor-gratis/projeto">Projeto Vetores por Vecteezy</a></li>
+            <li class="nav-item mb-2"><a href="https://www.flaticon.com/br/icones-gratis/equipe" title="equipe ícones"
+                class="nav-link p-0 text-muted atribuition">Equipe ícones criados por Eucalyp - Flaticon</a></li>
+            <li class="nav-item mb-2"><a href="https://www.flaticon.com/br/icones-gratis/manutencao"
+                title="manutenção ícones" class="nav-link p-0 text-muted atribuition">Manutenção ícones criados por
+                srip</a></li>
+            <li class="nav-item mb-2"><a href="https://www.freeimages.com/pt/photographer/fcunh4-82911"
+                title="imagem fibra" class="nav-link p-0 text-muted atribuition">fibra-Imagem de autoria de fcunh4</a>
+            </li>
+            <li class="nav-item mb-2"><a href="https://www.freeimages.com/pt/photographer/bodgie-57580"
+                title="imagem circuito" class="nav-link p-0 text-muted atribuition">placa-Imagem de autoria de
+                bodgie</a></li>
+          </ul>
+        </div>
+        <div class="col"></div>
 
 
-          <div class="col-4">
-            <ul class="nav flex-column">
-              <h5 style="margin-left:1rem">Contatos:</h5>
-              <li class="nav-item"><a class="nav-link text-muted text-break" href="tel:11 91323-4502">Número de telefone:<br> 11 91323-4502</a></li>
-              <li class="nav-item"><a class="nav-link text-muted text-break">Email:<br>laboratoriofiberpro@gmail.com</a></li>
-            </ul>
-          </div>
-          
-        </footer>
-      </div>
-    </div>
-    <div class="fixed-bottom cookie-window">
-      <div class="container text-center" id="internal-window-cookie">
-          <p>Usamos cookies para personalizar sua experiência.
-            Para saber mais acesse nossa <a href="#">política de privacidade</a>.<br></p>
-              <div class="btton-box">
-          <input type="button" value="Recusar Cookies" class="btn btn-secondary" id="refuse">
-          <input type="button" value="Aceitar Cookies" class="btn btn-secondary" id="accept"style="margin-right:1rem">
+        <div class="col-4">
+          <ul class="nav flex-column">
+            <h5 style="margin-left:1rem">Contatos:</h5>
+            <li class="nav-item"><a class="nav-link text-muted text-break" href="tel:11 91323-4502">Número de
+                telefone:<br> 11 91323-4502</a></li>
+            <li class="nav-item"><a class="nav-link text-muted text-break">Email:<br>laboratoriofiberpro@gmail.com</a>
+            </li>
+          </ul>
         </div>
 
-    
+      </footer>
     </div>
-</div>
+  </div>
+
 
 
 
@@ -247,27 +284,27 @@
     integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
     crossorigin="anonymous"></script>
 
-    <script>
-      const cookieBox = document.querySelector(".cookie-window"),
+  <script>
+    const cookieBox = document.querySelector(".cookie-window"),
       acceptBtn = cookieBox.querySelector(".btton-box #accept")
-      refuseBtn = cookieBox.querySelector(".btton-box #refuse")
+    refuseBtn = cookieBox.querySelector(".btton-box #refuse")
 
-      refuseBtn.onclick = ()=>{
-        cookieBox.classList.add("hide")
-      }
+    refuseBtn.onclick = () => {
+      cookieBox.classList.add("hide")
+    }
 
-      acceptBtn.onclick = ()=>{
-      document.cookie = "CookieBy=CodingNepal; max-age="+60*60*24*30;
-      if(document.cookie){
+    acceptBtn.onclick = () => {
+      document.cookie = "CookieBy=CodingNepal; max-age=" + 60 * 60 * 24 * 30;
+      if (document.cookie) {
         cookieBox.classList.add("hide");
-      }else{
+      } else {
         alert("Cookie can't be set")
       }
-      }
-      let  checkCookie = document.cookie.indexOf("CookieBy=CodingNepal");
-      checkCookie !=-1? cookieBox.classList.add("hide"): cookieBox.classList.remove("hide");
+    }
+    let checkCookie = document.cookie.indexOf("CookieBy=CodingNepal");
+    checkCookie != -1 ? cookieBox.classList.add("hide") : cookieBox.classList.remove("hide");
 
-    </script>
+  </script>
 </body>
 
 </html>

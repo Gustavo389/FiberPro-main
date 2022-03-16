@@ -1,23 +1,27 @@
 @use "../custom" as *;
 
-#footer-bg-dark{
-    color: white;
-    background-color: $gray-900;
-}   
-.atribuition{
-    font-size: 10px;
+#footer-bg-dark {
+  color: white;
+  background-color: $gray-900;
 }
-.cookie-window{
-    width: 100%;
-    background-color: $gray-300;
-    color: black;
-    height: 12vh;
+.atribuition {
+  font-size: 10px;
 }
-#internal-window-cookie{
-    margin-top: 0.9rem;
+.cookie-window {
+  width: 100%;
+  background-color: $gray-400;
+  color: black;
 }
-.cookie-window.hide{
-    opacity: 0;
-    visibility: hidden;
-    transition: all 0.3s ease;
+#internal-window-cookie {
+ 
+}
+.cookie-window.hide {
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.3s ease;
+}
+.btn-cookie {
+  color: white;
+  background-color: #075ddd;
+  font-family: "Roboto", sans-serif;
 }
